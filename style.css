@@ -1,0 +1,70 @@
+body {
+	padding: 10% 3% 10% 3%;
+	text-align: center;
+	font-family: sans-serif;
+}
+img {
+	height: 300px;
+	width: 300px;
+}
+
+h1 {
+	color: #e7615d;
+}
+h2 {
+	color: #0e9fe2;
+}
+h3 {
+	color: #a70e0e;
+}
+.mode {
+	float: right;
+}
+.change {
+	cursor: pointer;
+	border: 1px solid #555;
+	border-radius: 40%;
+	width: 20px;
+	text-align: center;
+	padding: 5px;
+	margin-left: 8px;
+}
+.theme-light {
+	--color-primary: rgb(168, 158, 158);
+	color: #030b16;
+	--font-color: #000000;
+}
+.theme-dark {
+	background-color: #000000;
+	--color-primary: #cf9924;
+	color: white;
+	--font-color: #ffffff;
+}
+.container button {
+	color: var(--font-color);
+	background: var(--color-primary);
+	padding: 10px 20px;
+	border: 0;
+	border-radius: 5px;
+}
+
+.portfolio {
+	display: grid;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+.maritime {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.defence {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.digital {
+	margin-left: 10px;
+	margin-right: 10px;
+}
